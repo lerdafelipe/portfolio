@@ -1,0 +1,110 @@
+
+@media(max-width: 991px){
+	.portfolio-section .portfolio-item,
+	.service-section .service-item{
+		flex: 0 0 50%;
+		max-width: 50%;
+	}
+}
+
+
+
+@media(max-width: 767px){
+	.contact-section .w-50,
+	.contact-section .contact-item,
+	.portfolio-popup .description,
+	.portfolio-popup .info,
+	.portfolio-section .portfolio-item,
+	.service-section .service-item,
+	.sobre-section .skills .skill-item,
+	.sobre-section .sobre-img,
+	.sobre-section .sobre-info,
+	.felipe-section .felipe-text,
+	.felipe-section .felipe-img{
+		flex: 0 0 100%;
+		max-width: 100%;
+		padding: 0 15px;
+	}
+	.felipe-section .felipe-text{
+		order: 2;
+	}
+	.contact-section .submit-btn,
+	.felipe-section .felipe-text{
+		text-align: center;
+	}
+	.felipe-section .full-screen{
+		padding: 100px 0;
+	}
+	.felipe-section .felipe-img .img-box{
+		margin-bottom: 40px;
+		max-width: 350px;
+	}
+	.effect-3{
+		margin-left: -60px;
+	}
+	 .effect-4{
+	 	left: 15%;
+	 }
+	  .effect-5{
+	  	right: 4%;
+	  }
+	.sobre-section .sobre-img{
+		padding-bottom: 30px;
+	}
+	.sobre-section .timeline .timeline-item:nth-child(odd){
+		padding-right: 15px;
+		text-align: left;
+		padding-left: 75px;
+	}
+	.sobre-section .timeline .timeline-item:nth-child(even){
+		padding-left: 75px;
+	}
+	.sobre-section .timeline:before{
+		left: 35px;
+	}
+	.sobre-section .timeline .timeline-item:nth-child(odd) .icon{
+		right: auto;
+		left: -60px;
+	}
+	.sobre-section .timeline .timeline-item:nth-child(even) .icon{
+		left: -60px;
+	}
+	.contact-section .contact-item,
+	.sobre-section .timeline .timeline-item{
+		margin-bottom: 40px;
+	}
+	.sobre-section .timeline .timeline-item:last-child{
+		margin-bottom: 0px;
+	}
+	.sobre-section .timeline-item .timeline-item-inner:before{
+		left: -30px;
+	}
+	.service-section .service-item{
+		margin-bottom: 40px;
+	}
+	.service-section .service-item:last-child{
+		margin-bottom: 0;
+	}
+	.portfolio-section .portfolio-item{
+		margin-bottom: 30px;
+	}
+	.portfolio-section .portfolio-item:last-child{
+		margin-bottom: 0;
+	}
+}
+
+@media(max-width: 574px){
+	.felipe-section .felipe-img .img-box{
+		max-width: 260px;
+	}
+	.felipe-section .felipe-text h2{
+		font-size: 40px;
+	}
+}
+
+
+
+
+
+
+
