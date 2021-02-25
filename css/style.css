@@ -1205,3 +1205,7 @@ Seccion de contacto
  	border-radius: 30px;
 }
 
+.link-en{
+	color: var(--skin-color);
+	text-decoration: none;
+}
