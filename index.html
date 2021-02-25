@@ -42,7 +42,7 @@
 		<div class="container">
 			<div class="row justify-content-between">
 				<div class="logo">
-					<a href="#home">FL</a>
+					<a href="index.html">FL</a>
 				</div>
 				<div class="hamburger-btn outer-shadow hover-in-shadow">
 					<span></span>
@@ -515,29 +515,29 @@
 			</div>
 			<div class="row">
 				<div class="contact-form">
-					<form>
+					<form action="correo.php" method="post">
 						<div class="row">
 						    <div class="w-50">
 							  <div class="input-group outer-shadow hover-in-shadow">
-								<input type="text" placeholder="Nombre" class="input-control">
+								<input type="text" name="nombre" placeholder="Nombre*" class="input-control" required="required">
 							  </div>
 							  <div class="input-group outer-shadow hover-in-shadow">
-								<input type="text" placeholder="Email" class="input-control">
+								<input type="email" name="email" placeholder="Email*" class="input-control" required="required">
 							  </div>
 							  <div class="input-group outer-shadow hover-in-shadow">
-								<input type="text" placeholder="Asunto" class="input-control">
+								<input type="text" name="asunto" placeholder="Asunto" class="input-control" >
 							  </div>
 						    </div>
 						    <div class="w-50">
 							  <div class="input-group outer-shadow hover-in-shadow">
-								<textarea placeholder="Consulta" class="input-control"></textarea>
+								<textarea placeholder="Consulta*" name="mensaje" class="input-control" required="required"></textarea>
 							  </div>
 						    </div>
-						</div>
+							</div>
 						<div class="row">
 							<div class="submit-btn">
 								<button type="submit" class="btn-2 outer-shadow hover-in-shadow">Enviar Mensaje</button>
-							</div>
+						</div>
 						</div>
 						</div>
 					</form>
