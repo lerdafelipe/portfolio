@@ -9,10 +9,12 @@
 	$mensaje = $_POST['mensaje'];
 
 
-	$header = "Formulario de contacto de Página lerdafelipe.com";
-	$mensajeCompleto = $mensaje . "\nAtentamente: ".  $nombre . "\nEmail: " . $email;
-
-	mail($destinatario, $asunto, $mensajeCompleto, $header);
+	$to = 'lerdafelipe@gmail.com'; // 
+	$email_subject = "lerdafelipe Formulario de contacto:  $name";
+	$email_body = "Acabas de recibir un mensaje del formulario de contacto.\n\n"."Aquí estan los detalles:\n\nNombre: $nombre\n\nEmail: $email\n\nMensaje:\n$mensaje";
+	$headers = "From: noreply@lerdafelipe.com\n"; // 
+	$headers .= "Responda-a: $email_address";   
+	mail($to,$email_subject,$email_body,$headers);
 	echo "<script>alert('Correo enviado exitosamente')</script>";
 	echo "<script> setTimeout(\"location.href='index.html'\",1)</script>";
 
