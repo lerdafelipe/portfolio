@@ -14,6 +14,7 @@
 		}
 	})
 
+
 	/*Cambiar de colores*/
 	const alternateStyles = document.querySelectorAll(".alternate-style");
 	function setActiveStyle(color) {

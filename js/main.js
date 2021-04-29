@@ -153,7 +153,10 @@ function bodyScrollingToggle(){
 	closeBtn.addEventListener("click", () =>{
 		popupToggle()
 		if(projectDetailsContainer.classList.contains("active")){
-
+			projectDetailsBtn.querySelector("i").classList.remove("fa-minus");
+    		projectDetailsBtn.querySelector("i").classList.add("fa-plus");
+    		projectDetailsContainer.classList.remove("active");
+    		projectDetailsContainer.style.maxHeight = 0 + "px";
 		}
 	})
 
@@ -251,3 +254,39 @@ window.addEventListener("load", ()=>{
 		document.querySelector(".preloader").style.display="none";
 	},600)
 })
+
+
+//////////////Configuración para el enlace//////////
+(function ($) {
+
+    // Smooth scrolling using jQuery easing
+    $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function () {
+        if (
+            location.pathname.replace(/^\//, "") ==
+                this.pathname.replace(/^\//, "") &&
+            location.hostname == this.hostname
+        ) {
+            var target = $(this.hash);
+            target = target.length
+                ? target
+                : $("[name=" + this.hash.slice(1) + "]");
+            if (target.length) {
+                $("html, body").animate(
+                    {
+                        scrollTop: target.offset().top - 72,
+                    },
+                    1000,
+                    "easeInOutExpo"
+                );
+                return false;
+            }
+        }
+    });
+
+
+    // Activate scrollspy to add active class to navbar items on scroll
+    $("body").scrollspy({
+        target: "#mainNav",
+        offset: 74,
+    });
+})(jQuery); ////////////////
