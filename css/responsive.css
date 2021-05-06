@@ -1,3 +1,17 @@
+@media(min-width: 767px){
+	.felipe-text{
+		padding: 0 15px;
+	}
+	.felipe-section .felipe-text h2{
+		font-size: 44px;
+	}
+}
+
+@media(min-width: 991px){
+	.felipe-section .felipe-text h2{
+		font-size: 50px;
+	}
+}
 
 @media(max-width: 991px){
 	.portfolio-section .portfolio-item,
@@ -6,7 +20,6 @@
 		max-width: 50%;
 	}
 }
-
 
 
 @media(max-width: 767px){
@@ -118,8 +131,6 @@
 		margin-top: -50px;
 	}
 }
- 
-
 
 
 

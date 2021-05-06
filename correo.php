@@ -15,7 +15,8 @@
 	$headers = "From: noreply@lerdafelipe.com\n"; // 
 	$headers .= "Responda-a: $email_address";   
 	mail($to,$email_subject,$email_body,$headers);
-	echo "<script>alert('Correo enviado exitosamente')</script>";
+	echo "<script>alert('Correo enviado exitosamente.
+						Message sent succefully.')</script>";
 	echo "<script> setTimeout(\"location.href='index.html'\",1)</script>";
 
 ?>

@@ -1209,3 +1209,14 @@ Seccion de contacto
 	color: var(--skin-color);
 	text-decoration: none;
 }
+.lenguaje-img{
+	height: 26px;
+}
+.lenguaje {
+	font-size: 20px;
+	line-height: 24px;
+	font-weight: 600;
+}
+.lenguaje-img-br{
+	height: 22px;
+}
