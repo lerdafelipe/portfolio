@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <meta name="theme-color" content="var(--skin-color)">
+  <meta charset="utf-8">
+  <title>Felipe Lerda - Desarrollador web</title>
+  <meta name="description" content="Mi nombre es Felipe Lerda, tengo 19 años y soy desarrollador web. trabajo con tecnologias como Html, Css, Javascript, Php, Bootsrap, Jquery, wordpress, etc. e-commerce">
+  <meta name="keywords" content="Felipe Lerda, Diseñador Web, Desarrollador Web, Javascript, Php, Bootsrap, Jquery, peginas web, sitios web">
+  <meta name="author" content="Felipe Lerda">
+  <meta name="copyright" content="Felipe Lerda">
+  <meta name="robots" content="index"/>
+  <link rel="shortcut icon" href="img/FL.png">
+  <!-- font awesome -->
+  <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+  <!-- main css -->
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <!-----------Responsive design------------>
+  <link rel="stylesheet" type="text/css" href="css/responsive.css">
+  <!-----------recruiters design------------>
+  <link rel="stylesheet" type="text/css" href="css/index.css">
+  <!-- Color 1 -->
+  <link rel="stylesheet" type="text/css" href="css/skins/color-1.css">
+  <!-------------------colores alternados---------------------------->
+   <link rel="stylesheet" type="text/css" class="alternate-style" title="color-1" href="css/skins/color-1.css">
+   <!--1-->
+   <link rel="stylesheet" type="text/css" class="alternate-style" title="color-2" href="css/skins/color-2.css" disabled>
+   <!--2-->
+   <link rel="stylesheet" type="text/css" class="alternate-style" title="color-3" href="css/skins/color-3.css" disabled>
+   <!--3-->
+   <link rel="stylesheet" type="text/css" class="alternate-style" title="color-4" href="css/skins/color-4.css" disabled>
+   <!--4-->
+   <link rel="stylesheet" type="text/css" class="alternate-style" title="color-5" href="css/skins/color-5.css" disabled>
+   <!--5-->
+  <!-------------------colores alternados---------------------------->
+  <!--Color-switcher js-->
+  <link rel="stylesheet" type="text/css" href="css/style-switcher.css">
+</head>
+<body>
+    <section class="link-section">
+        <div class="img-me-section">
+            <img src="img/profile-pic.png" alt="Felipe Lerda">
+          </div>
+        <div class="link-title">
+            <h2>Who Are You?</h2>
+        </div>
+        <div class="link-button">
+            <button class="button-lang-pp" onclick="showPopup()">A important person</button>
+            <button class="button-lang-pp" onclick="showPopup()">The best startup</button>
+            <a href="recruiters.html">A great recruiter</a>
+        </div>
+    </section> 
+    <!------Controlador de estilos----------->
+	<div class="style-switcher outer-shadow">
+		<div class="style-switcher-toggler s-icon outer-shadow hover-in-shadow">
+			<i class="fas fa-cog fa-spin"></i>
+		</div>
+		<div class="day-night s-icon outer-shadow hover-in-shadow">
+			<i class="fas"></i>
+		</div>
+		<h4>Style Switcher</h4>
+		<div class="colors">
+			<span class="color-1" onclick="setActiveStyle('color-1')"></span>
+			<span class="color-2" onclick="setActiveStyle('color-2')"></span>
+			<span class="color-3" onclick="setActiveStyle('color-3')"></span>
+			<span class="color-4" onclick="setActiveStyle('color-4')"></span>
+			<span class="color-5" onclick="setActiveStyle('color-5')"></span>
+		</div>
+	</div>
+	<!------Controlador de estilos----------->
+    <!-----------------Español o Ingles------>
+    <div class="lang">
+        <div class="lang-buttons">
+            <a href="en.html"><img class="lenguaje-img-br" src="img/BR.png" alt="UNITED KINGDOM"><span class="lenguaje"> ENGLISH</span></a>
+            <a href="index.html"><img class="lenguaje-img" src="img/AR.png" alt="Argentina"><span class="lenguaje"> ESPAÑOL</span></a>
+        </div>
+        <div class="close-lang-pp"><button onclick="hidePopup()"><i class="fas fa-times"></i></button></div>
+    </div>
+    <!-----------------Español o Ingles------>
+<!--Script Jquery-->
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<!-- main js -->
+<script src="js/index.js"></script>
+<!-- style switcher js -->
+<script src="js/style-switcher.js"></script>
+</body>
+</html>

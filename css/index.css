@@ -1,0 +1,391 @@
+.link-section{
+    height: 100vh;
+    border: 4px solid var(--skin-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bg-black);
+}
+.link-title h2{
+    color: var(--skin-color);
+    font-weight: 600;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.link-button{
+    display: flex;
+    flex-direction: column;
+}
+.link-button a{
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    color: var(--skin-color);
+    border: 3px solid var(--skin-color);
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+}
+.button-lang-pp{
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    color: var(--skin-color);
+    border: 3px solid var(--skin-color);
+    background-color: var(--bg-black);
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    cursor: pointer;
+}
+.close-lang-pp button{
+    padding: 0;
+    margin: 0;
+    border:0;
+    border-radius: 50%;
+}
+.lang{
+    position: fixed;
+    z-index: 9999999;
+    top:0;
+    display: none;
+    visibility: hidden;
+    left: 0;
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(136, 136, 136, 0.8);
+}
+.lang.open{
+    display: block;
+    visibility: visible;
+}
+.lang-buttons{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.lang-buttons a{
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    color: var(--skin-color);
+    border: 3px solid var(--skin-color);
+    background-color: var(--bg-black);
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+}
+.close-lang-pp{
+    position: absolute;
+    top:20px;
+    right: 25px;
+    align-self: flex-end;
+}
+.close-lang-pp i{
+    font-size: 20px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid var(--skin-color);
+    color: var(--skin-color);
+    background-color: var(--bg-black);
+    cursor: pointer;
+}
+/*Recruiters*/
+/***********/
+/***********/
+.recruiter-section{
+    min-height: 100vh;
+    max-width: 100vw;
+    overflow: hidden;
+}
+.me-section, .skills-section{
+    width: 100%;
+    height: 100%;
+    background-color: var(--skin-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.content-section{
+    margin: 60px 0;
+    height: 90%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 30px;
+}
+.img-me-section{
+    border-radius: 50%;
+    background-color: var(--bg-black-50);
+    overflow: hidden;
+    height: 200px;
+    width: 200px;
+    margin-bottom: 30px;
+}
+.text-section{
+    flex: 0 0 70%;
+    max-width: 70%;
+    text-align: center;
+    color: var(--bg-black);
+    font-weight: 500;
+    font-size: 16px;
+}
+.black-text{
+    font-weight: 600;
+}
+.link-button-section{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+}
+.link-button-section a{
+    margin: 0 10px;
+    padding: 5px 10px;
+    color: var(--bg-black);
+    border: 2px solid var(--bg-black);
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+}
+.link-button-section a:hover{
+    background-color: var(--bg-black);
+    color: var(--skin-color);
+    border: var(--bg-black);
+}
+.link-social-section a i{
+    color: var(--bg-black);
+    font-size: 24px;
+    margin: 0 15px;
+}
+.link-social-section a i:hover{
+    color: var(--bg-black-900);
+    border:var(--bg-black-900);
+}
+.portfolio-section-recruiter, .contact-section-recruiter{
+    background-color: var(--bg-black);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.portfolio-section-recruiter .text-section{
+    color: var(--skin-color);
+}
+.portfolio-section-recruiter .link-button-section a{
+    color: var(--skin-color);
+    border: 2px solid var(--skin-color);
+}
+.portfolio-section-recruiter .link-button-section a:hover{
+    background-color: var(--skin-color);
+    color: var(--bg-black);
+}
+.portfolio-section-recruiter .link-social-section a i{
+    color: var(--skin-color);
+}
+.portfolio-section-recruiter .link-social-section a i:hover{
+    color: var(--skin-color-80);
+}
+.contact-section-recruiter .link-social-section a i:hover{
+    color: var(--skin-color-80);
+}
+.contact-section-recruiter .link-button-section a:hover{
+    background-color: var(--skin-color);
+    color: var(--bg-black);
+}
+.text-section a{
+    color: var(--skin-color);
+    font-weight: 500;
+    text-decoration: underline;
+}
+.skills-section .text-section{
+    color: var(--bg-black);
+}
+.contact-section-recruiter .text-section{
+    color: var(--skin-color);
+}
+.contact-section-recruiter .link-button-section a{
+    color: var(--skin-color);
+    border: 2px solid var(--skin-color);
+}
+.contact-section-recruiter .link-social-section a i{
+    margin-top: 20px;
+    color: var(--skin-color);
+}
+@media(max-width: 550px){
+    .text-section{
+        flex: 0 0 85%;
+        max-width: 85%;
+    }
+}
+@media(max-width: 390px){
+    .link-social-section a i{
+        margin: 0 8px;
+    }
+}
+/********/
+/*portfolio*/
+/**********/
+.portfolio-box{
+	margin: 20px 0;
+	width: 60%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+    flex-wrap: wrap;
+}
+.portfolio-job{
+	display: flex;
+    cursor: pointer;
+	flex-direction: column;
+    border: 0;
+	flex: 0 0 40%;
+	max-width: 40%;
+	overflow: hidden;
+}
+.portfolio-job img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border: 3px solid var(--skin-color);
+}
+.portfolio-buttons{
+	flex: 0 0 100%;
+	max-width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.portfolio-buttons a{
+	text-align: center;
+    flex: 0 0 50%;
+    padding: 5px 0;
+    margin: 0;
+    font-size: 14;
+    font-weight: 500;
+}
+.portfolio-buttons a:hover{
+    transform: scale(0.98);
+}
+.portfolio-buttons a:nth-child(1){
+    background-color: var(--skin-color);
+    color: var(--bg-black-900);
+}
+.portfolio-buttons a:nth-child(2){
+    background-color: var(--skin-color-80);
+    color: var(--bg-black-900);
+}
+@media(max-width: 1300px){
+    .portfolio-buttons{
+        flex-direction: column;
+    }
+    .portfolio-buttons a{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .portfolio-buttons a:hover{
+        transform: scale(1);
+    }
+}
+@media(max-width: 1000px){
+    .portfolio-job{
+        flex: 0 0 45%;
+        max-width: 45%;
+    }
+    .portfolio-box{
+        width: 70%;
+        justify-content: space-around;
+    }
+}
+@media(max-width: 779px){
+    .portfolio-box{
+        width: 80%;
+        justify-content: space-around;
+    }
+}
+@media(max-width: 660px){
+    .portfolio-box{
+        width: 70%;
+    }
+    .portfolio-job{
+        flex: 0 0 80%;
+        max-width: 80%;
+    }
+    .portfolio-job:nth-child(1){
+        margin-bottom: 20px;
+    }
+}
+@media(max-width: 460px){
+    .portfolio-job{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+/***********/
+/*Arrows****/
+/***********/
+.arrows-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.portfolio-section-recruiter .arrows-section i{
+    color: var(--skin-color);
+    margin-bottom: 0;
+}
+.contact-section-recruiter .arrows-section{
+    transform: rotate(180deg);
+}
+.contact-section-recruiter .arrows-section i{
+    color: var(--skin-color);
+}
+.arrows-section i{
+    color: var(--bg-black);
+    text-align: center;
+}
+.arrows-section i:nth-child(1){
+    font-size: 24px;
+    line-height: 10px;
+}
+.arrows-section i:nth-child(2){
+    font-size: 20px;
+    line-height: 8px;
+}
+.arrows-section i:nth-child(3){
+    font-size: 18px;
+    line-height: 6px;
+}
+/**************/
+/***Skills*****/
+/**************/
+.skills-box{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px 0 10px 0;
+}
+.skill{
+    margin: 10px 0;
+    flex: 0 0 25%;
+    max-width: 25%;
+    text-align: center;
+}
+.skill p{
+    width: 100px;
+    text-align: center;
+    display: inline-block;
+    color: var(--bg-black-900);
+    padding: 4px 0;
+    font-size: 16;
+    font-weight: 500;
+    border: 1px solid var(--bg-black-900);
+}

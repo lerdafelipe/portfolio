@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap');
 /*variables css*/
 :root{
+	--bg-black:#ffffff; 
 	--bg-black-900: #000000;
 	--bg-black-100: #dddddd;
 	--bg-black-50: #eff0f4;
@@ -18,6 +19,7 @@
 }
 /*variables css modo dark*/
 body.dark{
+	--bg-black:#000000;
 	--bg-black-900: #ffffff;
 	--bg-black-100: #353535;
 	--bg-black-50: #2b2c2f;
