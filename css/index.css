@@ -1,8 +1,9 @@
 .presentation-section {
-  height: 80vh;
-  width: 70vw;
+  height: 100vh;
+  width: 100vw;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   background-color: var(--skin-color);
 }
@@ -20,7 +21,7 @@
   text-align: center;
   margin-top: 15px;
   flex: 0 0 95%;
-  max-width: 95%;
+  max-width: 1100px;
   max-height: 150px;
 }
 .text-section-light {
@@ -28,6 +29,7 @@
   color: var(--text-black-900);
   font-weight: 700;
   margin-bottom: 10px;
+  max-width: 1100px;
 }
 .text-section-light a {
   color: var(--bg-black-900);
@@ -36,19 +38,24 @@
 }
 .two-first-section {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 .Portfolio {
-  max-width: 67vh;
+  width: 100vw;
+  height: 100vh;
   background-color: var(--bg-black);
   border-bottom: 3px solid var(--skin-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .portfolio-box {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   width: 100%;
-  justify-content: space-between;
   align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 .text-section-skin {
   color: var(--skin-color);
@@ -56,6 +63,7 @@
   text-align: center;
   margin-top: 20px;
   margin-bottom: 0;
+  max-width: 1100px;
 }
 .text-section-skin a {
   color: var(--skin-color);
@@ -63,18 +71,16 @@
   text-decoration: underline;
 }
 .content-portfolio-section {
-  max-width: 100%;
+  max-width: 1100px;
 }
 .portfolio-job {
-  width: 100%;
+  width: 400px;
   display: flex;
   cursor: pointer;
   flex-direction: column;
-  border: 0;
-  flex: 0 0 55%;
-  max-width: 55%;
   overflow: hidden;
   border-radius: 10px;
+  margin: 20px;
   border: 3px solid var(--skin-color);
 }
 .portfolio-job.seg {
@@ -135,10 +141,15 @@
   height: 100%;
   background-color: var(--bg-black);
   padding-top: 15px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 .text-section-skin.skills {
   margin-top: 0;
-  font-weight: 800;
+  text-align: center;
 }
 .skill-container {
   display: flex;
@@ -149,6 +160,7 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+  max-width: 1100px;
 }
 .skill {
   color: var(--skin-color);
@@ -197,11 +209,6 @@
     margin: auto;
     width: 90%;
     margin-bottom: 25px;
-  }
-  .text-section-skin {
-    width: 90%;
-    margin: auto;
-    margin-top: 30px;
   }
   .text-section {
     margin: auto;
