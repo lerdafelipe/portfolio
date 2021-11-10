@@ -48,6 +48,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 30px;
 }
 .portfolio-box {
   display: flex;
@@ -59,7 +60,7 @@
 }
 .text-section-skin {
   color: var(--skin-color);
-  width: 95%;
+  width: 100%;
   text-align: center;
   margin-top: 20px;
   margin-bottom: 0;
@@ -72,6 +73,7 @@
 }
 .content-portfolio-section {
   max-width: 1100px;
+  margin: auto;
 }
 .portfolio-job {
   width: 400px;
@@ -140,7 +142,7 @@
 .skills-section {
   height: 100%;
   background-color: var(--bg-black);
-  padding-top: 15px;
+  padding: 15px 30px;
   text-align: center;
   display: flex;
   justify-content: center;
@@ -218,25 +220,20 @@
     margin-bottom: 20px;
   }
   .text-section-skin.skills {
-    width: 90%;
     margin: 0;
     margin-bottom: 30px;
-  }
-  .skills-section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
   }
   .skill-container {
     margin: 0;
   }
+  .Portfolio{
+    padding: 15px;
+  }
+  .skills-section{
+    padding: 15px;
+  }
 }
 @media (max-width: 472px) {
-  .portfolio-box {
-    flex-direction: column;
-    justify-content: center;
-  }
   .portfolio-job {
     flex: 0 0 60%;
     max-width: 60%;
@@ -244,12 +241,15 @@
   .portfolio-job.seg {
     margin-top: 25px;
   }
+  .content-portfolio-section{
+    margin: auto;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+  }
 }
 @media (max-width: 435px) {
   .text-section {
-    width: 85%;
-  }
-  .text-section-skin {
     width: 85%;
   }
 }
