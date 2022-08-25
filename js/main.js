@@ -71,7 +71,7 @@ const userEngl = {
 			fourthProject: "These are projects developed with me with React.js <span>Tools:</span> React.js, Redux, Node.js and other libraries."
 };
 const user = {
-			homeText: "¡Hola! Mi nombre es Felipe Lerda. Soy Desarrollador Web. Tengo 19 años, En 2019, mientras estaba en mi último año del secundario, realicé un curso de EducacionIT y desde ese momento incursiono en el mundo del diseño y desarrollo web. Luego de hacer algunos sitios web, en 2020 decidí meterme de lleno en esta profesión y es por eso que comencé una carrera en Coderhouse. Soy la persona indicada para hacer tu sitio web, ya que además de ser alguien que pone mucho esfuerzo en lo que hace, tomo cada proyecto como propio y busco mejoras constantes para que tu idea sea lo más profesional posible.",
+			homeText: "¡Hola! Mi nombre es Felipe Lerda. Soy Desarrollador Web. Tengo 20 años, En 2019, mientras estaba en mi último año del secundario, realicé un curso de EducacionIT y desde ese momento incursiono en el mundo del diseño y desarrollo web. Luego de hacer algunos sitios web, en 2020 decidí meterme de lleno en esta profesión y es por eso que comencé una carrera en Coderhouse. Soy la persona indicada para hacer tu sitio web, ya que además de ser alguien que pone mucho esfuerzo en lo que hace, tomo cada proyecto como propio y busco mejoras constantes para que tu idea sea lo más profesional posible.",
 			homeSecondText: "Mi consejo es que te apresures a contactarme para poder confirmar tu sitio web, ya que tengo un límite de proyectos al mes.",
 			skillsData: "Algunas herramientas",
 			skillsSubtitle: "Generalmente trabajo con el stack de React.js pero estoy abierto a aprender otras tecnologías.",
