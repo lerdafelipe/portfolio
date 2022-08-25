@@ -148,3 +148,20 @@
   flex: 0 0 50%;
   border: 1px solid #ffffff;
 }
+@media (max-width: 530px){
+  .foot div{
+    flex-direction: column;
+  }
+  .foot div span:last-child{
+    order: 1;
+  }
+  .foot div span:first-child{
+    margin-top: 10px;
+    order: 2;
+  }
+}
+@media (max-width: 400px){
+  .popup-type-of-user .type-of-user h5{
+    font-size: 20px;
+  }
+}

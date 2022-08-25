@@ -4,7 +4,7 @@
   --bg-black: #ffffff;
   --bg-black-900: #000000;
   --bg-black-100: #dddddd;
-  --bg-black-50: #eff0f4;
+  --bg-black-50: #F4F4F4;
   --bg-opacity: rgba(255, 255, 255, 0.5);
   --text-black-900: #000000;
   --text-black-700: #555555;
@@ -140,7 +140,7 @@ img {
   margin: 0;
 }
 .section-title h2:before {
-  content: attr(data-heading);
+  content: attr(value);
   display: block;
   font-size: 16px;
   font-weight: 400;
@@ -442,7 +442,7 @@ Efectos------
   width: 180px;
   border: 25px solid var(--skin-color);
   border-radius: 50%;
-  top: -110px;
+  top: -220px;
   right: 30%;
   animation: reboteCircle 3s ease-in-out infinite;
   z-index: -1;
@@ -474,7 +474,7 @@ Efectos------
   border-radius: 50%;
   overflow: hidden;
   right: 10%;
-  top: 30%;
+  top: 3%;
   z-index: -1;
   animation: spin 10s linear infinite;
 }
@@ -524,7 +524,7 @@ Efectos------
 -----------*/
 /*Sobre mi seccion*/
 .sobre-section {
-  padding: 80px 0 0px;
+  padding: 110px 0 0px;
   min-height: 100vh;
 }
 .sobre-section .sobre-img {
@@ -580,20 +580,20 @@ Efectos------
   color: var(--skin-color);
 }
 .sobre-section .sobre-pestañas {
-  padding: 60px 15px 50px;
+  padding: 60px 15px 0px;
   flex: 0 0 100%;
   max-width: 100%;
   text-align: center;
 }
 .sobre-section .sobre-pestañas .tab-item {
   display: inline-block;
-  margin: 0 5px 10px;
-  padding: 5px 10px;
+  margin: 0 15px 25px;
+  padding: 5px 15px;
   border-radius: 30px;
   cursor: pointer;
   transition: all 0.3s ease;
   font-size: 16px;
-  color: var(--text-black-600);
+  color: var(--skin-color);
   font-weight: 500;
   text-transform: capitalize;
 }
@@ -811,7 +811,7 @@ Efectos------
 }
 /*-------Portfolio Seccion-----------*/
 .portfolio-section {
-  padding: 80px 0 80px;
+  padding: 80px 0 0px;
   min-height: 100vh;
 }
 .portfolio-section .section-title {
@@ -896,217 +896,14 @@ Efectos------
 .portfolio-section .portfolio-item-inner p {
   font-size: 16px;
   margin: 10px 0 0;
-  color: var(--text-black-600);
-  text-transform: capitalize;
-}
-/*----------------------
-Popup-portfolio
-------------------------*/
-.portfolio-popup {
-  background-color: var(--bg-black-50);
-  position: fixed;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 1000;
-  overflow-y: scroll;
-  opacity: 0;
-  visibility: hidden;
-  transition: all 0.3s ease;
-}
-.portfolio-popup.open {
-  visibility: visible;
-  opacity: 1;
-}
-.portfolio-popup .pp-loader {
-  position: fixed;
-  left: 0;
-  top: 0;
-  height: 100%;
-  width: 100%;
-  z-index: 1005;
-  background-color: var(--bg-opacity);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  visibility: hidden;
-  opacity: 0;
-}
-.portfolio-popup .pp-loader.active {
-  visibility: visible;
-  opacity: 1;
-}
-.portfolio-popup .pp-loader div {
-  height: 40px;
-  width: 40px;
-  border: 3px solid var(--skin-color);
-  border-radius: 50%;
-  border-right: 3px solid transparent;
-  animation: spin 2s linear infinite;
-}
-.portfolio-popup .pp-details {
-  max-width: 1350px;
-  width: calc(85% + 30px);
-  margin: auto;
-  max-height: 0;
-  overflow: hidden;
-  opacity: 0;
-  transition: all 0.5s ease;
-}
-.portfolio-popup .pp-details.active {
-  opacity: 1;
-}
-.portfolio-popup .pp-title {
-  padding: 0 15px;
-}
-.portfolio-popup .pp-title h2 {
-  font-size: 28px;
-  color: var(--text-black-900);
-  text-transform: capitalize;
-  font-weight: 600;
-  margin: 0 0 5px;
-}
-.portfolio-popup .pp-title p {
-  font-size: 14px;
   font-weight: 500;
-  color: var(--text-black-600);
-  margin: 0 0 10px;
-}
-.portfolio-popup .pp-project-details h3 {
-  font-size: 20px;
-  font-weight: 600;
-  color: var(--text-black-700);
-  text-transform: capitalize;
-}
-.portfolio-popup .description {
-  flex: 0 0 65%;
-  max-width: 65%;
-  padding: 0 15px;
-  margin: 10px 0 0 0;
-}
-.portfolio-popup .description p {
-  font-size: 16px;
-  color: var(--text-black-600);
-  line-height: 26px;
-}
-.portfolio-popup .info {
-  flex: 0 0 35%;
-  max-width: 35%;
-  padding: 0 15px;
-  margin: 10px 0 0 0;
-}
-.portfolio-popup .info ul li {
-  display: block;
-  margin-bottom: 10px;
-  font-weight: 600;
-  color: var(--text-black-700);
-}
-.portfolio-popup .info ul li span {
-  color: var(--text-black-600);
-}
-.portfolio-popup .info ul li span a {
+  letter-spacing: 0.8px;
   color: var(--skin-color);
+  text-transform: capitalize;
 }
-.portfolio-popup .info ul li:last-child {
-  margin-bottom: 0;
-}
-.portfolio-popup .separator {
-  height: 1px;
-  width: 100%;
-  display: block;
-  background-color: var(--bg-black-100);
-}
-.portfolio-popup .pp-details-inner {
-  padding: 30px 0;
-}
-.portfolio-popup .pp-img {
-  max-width: 100%;
-  width: auto;
-  height: auto;
-  padding: 10px;
-  border-radius: 5px;
-}
-.portfolio-popup .pp-main {
-  min-height: 100%;
-  max-width: 1350px;
-  width: 85%;
-  margin: auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.portfolio-popup .pp-main-inner {
-  padding: 70px 0 50px;
-  position: relative;
-}
-.portfolio-popup .pp-project-details-btn {
-  position: absolute;
-  left: 0;
-  top: 15px;
-  height: 40px;
-  line-height: 40px;
-  border-radius: 30px;
-  font-size: 16px;
-  font-weight: 500;
-  color: var(--skin-color);
-  padding: 0 10px;
-  cursor: pointer;
-}
-.portfolio-popup .pp-project-details-btn:after {
-  border-radius: 30px;
-}
-.portfolio-popup .pp-close {
-  position: absolute;
-  right: 0;
-  height: 40px;
-  width: 40px;
-  top: 15px;
-  line-height: 40px;
-  border-radius: 50%;
-  font-size: 35px;
-  color: var(--text-black-600);
-  text-align: center;
-  font-weight: 500;
-  cursor: pointer;
-  transition: all 0.3s ease;
-}
-.portfolio-popup .pp-close:after {
-  border-radius: 50%;
-}
-.portfolio-popup .pp-counter {
-  position: absolute;
-  right: 0;
-  height: 40px;
-  line-height: 40px;
-  bottom: 5px;
-  font-size: 16px;
-  color: var(--text-black-600);
-}
-.portfolio-popup .pp-prev,
-.portfolio-popup .pp-next {
-  position: fixed;
-  top: 50%;
-  height: 40px;
-  width: 40px;
-  text-align: center;
-  font-size: 20px;
-  line-height: 40px;
-  cursor: pointer;
-  z-index: 1010;
-  opacity: 0.5;
-  color: var(--text-black-600);
-}
-.portfolio-popup .pp-prev:hover,
-.portfolio-popup .pp-next:hover {
-  opacity: 1;
-}
-.portfolio-popup .pp-prev {
-  left: 0px;
-  transform: rotate(180deg);
-}
-.portfolio-popup .pp-next {
-  right: 15px;
+.portfolio-item-short-descr{
+  color: var(--bg-black-900) !important; 
+  font-size:13px !important;
 }
 /*********************
 Seccion de contacto
@@ -1146,47 +943,7 @@ Seccion de contacto
   margin: 0;
   word-break: break-word;
 }
-.contact-section .contact-form {
-  flex: 0 0 100%;
-  max-width: 100%;
-  margin-top: 50px;
-}
-.contact-section .w-50 {
-  padding: 0 15px;
-  flex: 0 0 50%;
-  max-width: 50%;
-}
-.contact-section .input-group {
-  margin: 0 0 25px;
-  border-radius: 30px;
-  transition: all 0.3s ease;
-}
-.contact-section .input-group:after {
-  border-radius: 30px;
-}
-.contact-section .input-group .input-control {
-  height: 40px;
-  display: block;
-  width: 100%;
-  padding: 0 15px;
-  border-radius: 30px;
-  background-color: transparent;
-  border: none;
-  font-size: 16px;
-  color: var(--skin-color);
-  cursor: text;
-}
-.contact-section .input-group textarea.input-control {
-  height: 174px;
-  padding-top: 15px;
-  resize: none;
-}
-.contact-section .submit-btn {
-  flex: 0 0 100%;
-  max-width: 100%;
-  text-align: right;
-  padding: 0 15px;
-}
+
 .contact-section .btn-2 {
   padding: 10px 25px;
   border-radius: 30px;
@@ -1205,118 +962,113 @@ Seccion de contacto
   border-radius: 30px;
 }
 
-.link-en {
-  color: var(--skin-color);
-  text-decoration: none;
-}
-.lenguaje-img {
-  height: 26px;
-}
-.lenguaje {
-  font-size: 20px;
-  line-height: 24px;
-  font-weight: 600;
-}
-.lenguaje-img-br {
-  height: 22px;
-}
 
 /**********
 **********/
-.link-section {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 100vw;
-  height: 100vh;
-  background-color: var(--bg-black);
+.sobre-info .section-title{
+  margin-bottom: 10px;
+  padding-left: 0;
+  text-align: left;
 }
-.img-me-section {
-  width: 200px;
-  height: 200px;
-  background-color: var(--skin-color);
-  border-radius: 50%;
-  overflow: hidden;
+.sobre-info .section-title h2{
+  text-align: left;
 }
-.link-title h2 {
-  color: var(--skin-color);
-  font-size: 22px;
-  font-weight: 600;
-  margin-top: 15px;
-}
-.link-button {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-top: 10px;
-}
-.link-button button {
+.style-switcher button{
   background-color: transparent;
-  padding: 5px;
-  margin: 7px;
-  color: var(--skin-color);
-  border: 2px solid var(--skin-color);
-  cursor: pointer;
+  border: none;
   font-size: 16px;
-  font-weight: 500;
-}
-.link-button a {
-  background-color: transparent;
-  padding: 5px;
-  margin: 7px;
-  color: var(--skin-color);
-  border: 2px solid var(--skin-color);
+  color: var(--text-black-600);
+  margin-bottom: 5px;
   cursor: pointer;
-  font-size: 16px;
-  font-weight: 500;
 }
-.lang {
-  visibility: hidden;
-  display: none;
+.style-switcher button.active{
+  color: var(--skin-color);
+  cursor: default;
+  pointer-events: none;
 }
-.lang.open {
+.fa-spin{
+  animation: fa-spin 6s infinite linear;
+}
+.foot div{
+  margin-bottom: 20px; 
+  display: flex; 
+  justify-content: space-around;
+}
+.foot div span:last-child a{
+  color: var(--text-black-900); 
+  text-decoration: underline;
+}
+.foot div span:first-child{
+  margin: 0 10px; 
+  padding: 0; 
+  color: var(--text-black-900);
+}
+.section-subtitle-p{
+  color: var(--text-black-600);
+}
+/****************
+*****************
+Popup type of user
+*****************
+****************/
+.popup-type-of-user{
   position: fixed;
-  visibility: visible;
-  display: block;
-  height: 100vh;
-  width: 100vw;
-  z-index: 100;
   top: 0;
   left: 0;
-  background-color: #b8acacbe;
-}
-.lang-buttons {
+  z-index: 102;
+  background-color: var(--bg-black-50);
+  color: var(--text-black-900);
+  width: 100%;
   height: 100vh;
-  width: 100vw;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.close-lang-pp {
-  position: absolute;
-  top: 15px;
-  right: 15px;
-  cursor: pointer;
-}
-.lang-buttons a {
-  background-color: #000000;
-  padding: 5px;
-  margin: 7px;
+.popup-type-of-user .type-of-user h5{
+  font-size: 24px;
+  font-weight: 500;
   color: var(--skin-color);
-  border: 2px solid var(--skin-color);
+  margin: 15px 0 25px 0;
+  text-align: center;
+}
+.button-user-type{
+  display: block;
+  width: 100%;
+  background-color: var(--skin-color);
+  color: var(--text-black-900);
+  padding: 8px 0;
   cursor: pointer;
+  margin-top: 15px;
+  border: none;
+  border-radius: 50px;
   font-size: 16px;
   font-weight: 500;
+  letter-spacing: 0.8px;
 }
-.close-lang-pp button {
-  background-color: #000000;
-  padding: 5px 10.425px;
-  color: var(--skin-color);
-  border: 1px solid var(--skin-color);
-  border-radius: 50%;
+.lang-pop{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.switcher-lang{
+  width: 60px;
+  border-radius: 18px;
+  padding: 4px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border: 1px solid var(--text-black-900);
+  margin: 0 15px;
+}
+.switcher-lang-button{
+  height: 20px;
+  width: 20px;
+  background-color: var(--skin-color);
+  border: none;
+  border-radius: 10px;
   cursor: pointer;
-  font-size: 22px;
+}
+.switcher-lang.active{
+  justify-content: flex-end;
 }

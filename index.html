@@ -45,7 +45,7 @@
 <body class="dark">
 
 	<!-------Preloader---------->
-	<div class="preloader">
+	<div class="preloader hide">
 		<div class="box">
 			<div></div><div></div><div></div>
 		</div>	
@@ -57,37 +57,14 @@
 		<div class="container">
 			<div class="row justify-content-between">
 				<div class="logo">
-					<a href="#home">FL</a>
-				</div>
-				<div class="hamburger-btn outer-shadow hover-in-shadow">
-					<span></span>
+					<a>FL</a>
 				</div>
 			</div>
 		</div>
 	</header>
 	<!--Termina Header-->
-	<!--Menu de navegación-->
-	<nav class="nav-menu">
-		<div class="close-nav-menu outer-shadow hover-in-shadow">&times;</div>
-		<div class="nav-menu-inner">
-			<ul>
-				<li><a href="#home" class="link-home link-item inner-shadow active">Felipe</a></li>
-				<li><a href="#about" class="link-item outer-shadow hover-in-shadow">Sobre mi</a></li>
-				<li><a href="#services" class="link-item outer-shadow hover-in-shadow">Servicios</a></li>
-				<li><a href="#portfolio" class="link-item outer-shadow hover-in-shadow">Portfolio</a></li>
-				<li><a href="#contact" class="link-item outer-shadow hover-in-shadow">Contacto</a></li>
-				<li><a href="recruiters.html" class="link-item outer-shadow hover-in-shadow">Recruiters</a></li>
-				<li><a href="en.html" class="outer-shadow hover-in-shadow"><img class="lenguaje-img-br" src="img/BR.png" alt="UNITED KINGDOM"><span class="lenguaje"> EN</span></a></li>
-			</ul>
-		</div>
-		<div>
-			<p class="copyright-text">&copy; 2021 Felipe Lerda</p>
-		</div>
-	</nav>
-	<div class="fade-out-effect"></div>
-	<!--Fin del menu de navegacion-->
-		<!--Seccion Felipe-->
-	<section class="felipe-section section active" id="home">
+	<!--Seccion Sobre mi-->
+	<section class="sobre-section section active" id="about">
 		<!--figuras de fondo-->
 		<div class="effect-wrap">
 			<div class="effect effect-1"></div>
@@ -96,30 +73,7 @@
 			<div class="effect effect-4"></div>
 			<div class="effect effect-5"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
 		</div>
-		<!--Figuras de fondo-->
 		<div class="container">
-			<div class="row full-screen align-items-center">
-				<div class="felipe-text">
-					<p>¡Hola!</p>
-					<h2>Soy Felipe Lerda</h2>
-					<h1>Diseñador & Desarrollador Web</h1>
-					<a href="#about" class="link-item btn-1 outer-shadow hover-in-shadow">Más Sobre mi</a>
-				</div>
-				<div class="felipe-img">
-					<div class="img-box inner-shadow"><img class="outer-shadow" src="img/profile-pic.png" alt="foto-felipe"></div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!--Finaliza Seccion Felipe-->
-	<!--Seccion Sobre mi-->
-	<section class="sobre-section section" id="about">
-		<div class="container">
-			<div class="row">
-				<div class="section-title">
-					<h2 data-heading="Información principal">Sobre mi</h2>
-				</div>
-			</div>
 			<div class="row">
 				<div class="sobre-img">
 					<div class="img-box inner-shadow">
@@ -127,6 +81,8 @@
 					</div>
 					<!--Iconos de redes sociales-->
 					<div class="social-links">
+						<a target="_BLANK" href="mailto:lerdafelipe@gmail.com" class="outer-shadow hover-in-shadow"><i class="fas fa-envelope"></i></a>
+						<a target="_BLANK" href="tel:+5493534279005" class="outer-shadow hover-in-shadow"><i class="fas fa-phone"></i></a>
 						<a target="_BLANK" href="https://www.instagram.com/lerdafelipe/" class="outer-shadow hover-in-shadow"><i class="fab fa-instagram"></i></a>
 						<a target="_BLANK" href="https://api.whatsapp.com/send?phone=+5493534279005" class="outer-shadow hover-in-shadow"><i class="fab fa-whatsapp"></i></a>
 						<a target="_BLANK" href="https://www.linkedin.com/in/lerdafelipe/" class="outer-shadow hover-in-shadow"><i class="fab fa-linkedin-in"></i></a>
@@ -134,451 +90,92 @@
 					</div>
 				</div>
 				<div class="sobre-info">
-					<p><span>¡Hola! Mi nombre es Felipe Lerda. Soy Desarrollador Web.</span> Tengo 19 años, En 2019, mientras estaba en mi último año del secundario, realicé un curso de <span>EducacionIT</span> y desde ese momento incursiono en el mundo del diseño y desarrollo web. Luego de hacer algunos sitios web, en 2020 decidí meterme de lleno en esta profesión y es por eso que comencé una carrera en <span>Coderhouse</span>.
+					<div class="section-title">
+						<h2 value="Web developer">Felipe Lerda</h2>
+					</div>
+					<p id="home-text"><span>¡Hola! Mi nombre es Felipe Lerda. Soy Desarrollador Web.</span> Tengo 19 años, En 2019, mientras estaba en mi último año del secundario, realicé un curso de <span>EducacionIT</span> y desde ese momento incursiono en el mundo del diseño y desarrollo web. Luego de hacer algunos sitios web, en 2020 decidí meterme de lleno en esta profesión y es por eso que comencé una carrera en <span>Coderhouse</span>.
 					 Soy la persona indicada para hacer tu sitio web, ya que además de ser alguien que pone mucho esfuerzo en lo que hace, tomo cada proyecto como propio y busco mejoras constantes para que tu idea sea lo más profesional posible.</p>
-					<p>Mi consejo es que te apresures a contactarme para poder confirmar tu sitio web, ya que tengo un límite de proyectos al mes.</p>
-					<a href="cv/cv.pdf" target="_BLANK" class="btn-1 outer-shadow hover-in-shadow">Descargar CV</a>
-					<a href="#contact" class="link-item btn-1 outer-shadow hover-in-shadow">Contactame</a>
+					<p id="home-secondText">Mi consejo es que te apresures a contactarme para poder confirmar tu sitio web, ya que tengo un límite de proyectos al mes.</p>
 				</div>
 			</div>
 			<!--Controlador de pestañas sobre mi-->
 			<div class="row">
 				<div class="sobre-pestañas">
-					<span class="tab-item outer-shadow active" data-target=".skills">Skills</span>
-					<span class="tab-item" data-target=".experience">Experiencia</span>
+					<div class="section-title">
+						<h2 id="skills-data" value="Algunas herramientas">Skills</h2>
+						<p class="section-subtitle-p" id="skills-subTitle">Existen más herramientas que utilizo, estás son las más comunes.</p>
+					</div>
+					<div class="skills-cont">
+						<span class="tab-item outer-shadow">HTML</span>
+						<span class="tab-item outer-shadow">CSS</span>
+						<span class="tab-item outer-shadow">Javascript</span>
+						<span class="tab-item outer-shadow">SCSS</span>
+						<span class="tab-item outer-shadow">Jquery</span>
+						<span class="tab-item outer-shadow">Wordpress</span>
+						<span class="tab-item outer-shadow">Next.js</span>
+						<span class="tab-item outer-shadow">React.js</span>
+						<span class="tab-item outer-shadow">Node.js</span>
+						<span class="tab-item outer-shadow">Express.js</span>
+						<span class="tab-item outer-shadow">Firebase</span>
+						<span class="tab-item outer-shadow">SQL</span>
+						<span class="tab-item outer-shadow">NoSQL</span>
+						<span class="tab-item outer-shadow">Figma</span>
+					</div>
 				</div>
 			</div>
 			<!--Controlador de pestañas sobre mi-->
-			<!---Skills-->
-				<div class="row">
-					<div class="skills tab-content active">
-						<div class="row">
-							<!--Skill 1--->
-							<div class="skill-item">
-								<p>html</p>
-								<div class="progress inner-shadow">
-									<div class="progress-bar" style="width: calc(95% - 14px)">
-										<span>95%</span>
-									</div>
-								</div>
-							</div>
-							<!--Skill 2--->
-							<div class="skill-item">
-								<p>css</p>
-								<div class="progress inner-shadow">
-									<div class="progress-bar" style="width: calc(85% - 14px)">
-										<span>85%</span>
-									</div>
-								</div>
-							</div>
-							<!--Skill 3-->
-							<div class="skill-item">
-								<p>javascript</p>
-								<div class="progress inner-shadow">
-									<div class="progress-bar" style="width: calc(80% - 14px)">
-										<span>80%</span>
-									</div>
-								</div>
-							</div>
-							<!--Skill 4-->
-							<div class="skill-item">
-								<p>scss</p>
-								<div class="progress inner-shadow">
-									<div class="progress-bar" style="width: calc(65% - 14px)">
-										<span>65%</span>
-									</div>
-								</div>
-							</div>
-							<!--Skill 5-->
-							<div class="skill-item">
-								<p>bootstrap</p>
-								<div class="progress inner-shadow">
-									<div class="progress-bar" style="width: calc(90% - 14px)">
-										<span>90%</span>
-									</div>
-								</div>
-							</div>
-							<!--Skill 6-->
-							<div class="skill-item">
-								<p>Jquery</p>
-								<div class="progress inner-shadow">
-									<div class="progress-bar" style="width: calc(85% - 14px)">
-										<span>85%</span>
-									</div>
-								</div>
-							</div>
-							<!--Skill 7-->
-							<div class="skill-item">
-								<p>Wordpress</p>
-								<div class="progress inner-shadow">
-									<div class="progress-bar" style="width: calc(95% - 14px)">
-										<span>95%</span>
-									</div>
-								</div>
-							</div>
-							<!--Skill 8-->
-							<div class="skill-item">
-								<p>React.js</p>
-								<div class="progress inner-shadow">
-									<div class="progress-bar" style="width: calc(80% - 14px)">
-										<span>80%</span>
-									</div>
-								</div>
-							</div>
-							<!--Skill 9-->
-							<div class="skill-item">
-								<p>Next.js</p>
-								<div class="progress inner-shadow">
-									<div class="progress-bar" style="width: calc(60% - 14px)">
-										<span>60%</span>
-									</div>
-								</div>
-							</div>
-							<!--Skill 10-->
-							<div class="skill-item">
-								<p>Express.js</p>
-								<div class="progress inner-shadow">
-									<div class="progress-bar" style="width: calc(75% - 14px)">
-										<span>75%</span>
-									</div>
-								</div>
-							</div>
-							<!--Skill 11-->
-							<div class="skill-item">
-								<p>Node.js</p>
-								<div class="progress inner-shadow">
-									<div class="progress-bar" style="width: calc(85% - 14px)">
-										<span>85%</span>
-									</div>
-								</div>
-							</div>
-							<!--Skills end-->
-						</div>
-					</div>
-				</div>
-			<!---Skills-->
-			<!--Experiencia-->
-			<div class="row">
-				<div class="experience tab-content">
-					<div class="row">
-						<div class="timeline">
-						<div class="row">
-							<!--timeline item 1-->
-							<div class="timeline-item">
-								<div class="timeline-item-inner outer-shadow">
-									<i class="fas fa-briefcase icon"></i>
-									<span>Septiembre 2019 - Actualidad</span>
-									<h3>Creación de Sitios Web con Wordpress</h3>
-								    <h4>Autónomo</h4>
-								    <p>Desde mi finalización del curso en EducacionIT, de manera independiente, he realizado trabajos, podrás ver algunos en mi portfolio.</p>
-								</div>
-							</div>
-							<!--timeline item 2-->
-							<div class="timeline-item">
-								<div class="timeline-item-inner outer-shadow">
-									<i class="fas fa-briefcase icon"></i>
-									<span>Noviembre 2020 - Actualidad</span>
-									<h3>Desarrollador Web</h3>
-								    <h4>Autónomo</h4>
-								    <p>Luego de comenzar la carrera de desarrollo web full stack en 2020, realizo proyectos constantemente para mejorar mis habilidades. <span><a href="#portfolio" class="link-en link-item">Portfolio</a></span> </p>
-								</div>
-							</div>
-							<!--Timeline items final-->
-						</div>
-					</div>
-					</div>
-				</div>
-			</div>
-			<!--Experiencia-->
 		</div>
 	</section>
 	<!--Finaliza seccion Sobre mi-->
-	<!--Empieza seccion Servicios-->
-	<section class="service-section section" id="services">
-		<div class="container">
-			<div class="row">
-				<div class="section-title">
-					<h2 data-heading="Servicios">Lo que puedo hacer por vos</h2>
-				</div>
-			</div>
-			<div class="row">
-				<!--items de servicios-->
-				<!---------1------------>
-				<div class="service-item">
-					<div class="service-item-inner outer-shadow">
-						<div class="icon inner-shadow">
-							<i class="fas fa-code"></i>
-						</div>
-						<h3>Diseño y Desarrollo Web</h3>
-						<p> Prototipado del sitio con una herramienta de diseño y posterior desarrollo del mismo.</p>
-					</div>
-				</div>
-				<!---------2------------>
-				<div class="service-item">
-					<div class="service-item-inner outer-shadow">
-						<div class="icon inner-shadow">
-							<i class="fas fa-shopping-cart"></i>
-						</div>
-						<h3>E-Commerce</h3>
-						<p> Sitios de comercio electrónico, rubro en expansión constante, para llevar a tu negocio al siguiente nivel.</p>
-					</div>
-				</div>
-				<!---------3------------>
-				<div class="service-item">
-					<div class="service-item-inner outer-shadow">
-						<div class="icon inner-shadow">
-							<i class="fas fa-camera"></i>
-						</div>
-						<h3>Imágenes para el sitio web</h3>
-						<p> Fotógrafa profesional aliada para lograr la mejor calidad en las imágenes del sitio.</p>
-					</div>
-				</div>
-				<!---------4------------>
-				<div class="service-item">
-					<div class="service-item-inner outer-shadow">
-						<div class="icon inner-shadow">
-							<i class="fas fa-mobile-alt"></i>
-						</div>
-						<h3>Responsive Design</h3>
-						<p> Diseño de las páginas del sitio adaptables a los dispositivos en los que se vaya a utilizar. Mobile first.</p>
-					</div>
-				</div>
-				<!---------5------------>
-				<div class="service-item">
-					<div class="service-item-inner outer-shadow">
-						<div class="icon inner-shadow">
-							<i class="fas fa-search"></i>
-						</div>
-						<h3>SEO</h3>
-						<p>Codificación y planificación de la campaña de posicionamiento orgánico en las búsquedas.</p>
-					</div>
-				</div>
-				<!---------6------------>
-				<div class="service-item">
-					<div class="service-item-inner outer-shadow">
-						<div class="icon inner-shadow">
-							<i class="fas fa-star"></i>
-						</div>
-						<h3>Sitios Profesionales con Wordpress</h3>
-						<p>Creación de sitios web que incluyen funciones avanzadas con el CMS Wordpress.</p>
-					</div>
-				</div>
-				<!--items de servicios-->
-			</div>
-		</div>
-	</section>
-	<!--Finaliza seccion Servicios-->
 	<!--Empieza seccion Portfolio-->
-	<section class="portfolio-section section" id="portfolio">
+	<section class="portfolio-section section active" id="portfolio">
 		<div class="container">
 			<div class="row">
 				<div class="section-title">
-					<h2 data-heading="Portfolio">Últimos trabajos</h2>
+					<h2  id="portfolio-title" value="Portfolio">Algunos trabajos</h2>
+					<p id="portfolio-subtitle" class="section-subtitle-p">*Clickeando en el proyecto, si aún existe, lo podrás ver.</p>
 				</div>
 			</div>
-				<!---Pestañas de portfolio-->
-			<div class="row">
-				<div class="portfolio-filter">
-					<span class="filter-item outer-shadow active" data-target="todo">Todo</span>
-					<span class="filter-item" data-target="desarrollo-web">Desarrollo Web</span>
-					<span class="filter-item" data-target="e-commerce">e-Commerce</span>
-					<span class="filter-item" data-target="wordpress">Wordpress</span>
-				</div>
-			</div>
-				<!---Pestañas de portfolio-->
 				<!---items de portfolio-->
 			<div class="row portfolio-items">
-				<!-----------1------------->
-				<div class="portfolio-item" data-category="desarrollo-web">
-					<div class="portfolio-item-inner outer-shadow">
-						<div class="portfolio-item-img">
-							<img src="img/portfolio/thumb/project-1.png" alt="Portfolio personal" data-screenshots="img/portfolio/large/project-1/1.png,
-							img/portfolio/large/project-1/2.png,
-							img/portfolio/large/project-1/3.png,
-							img/portfolio/large/project-1/4.png,
-							img/portfolio/large/project-1/5.png">
-							<span class="view-project">Ver proyecto</span>
-						</div>
-						<p class="portfolio-item-title">Portfolio Personal</p>
-						<!----------Dettales del item------------->
-						<div class="portfolio-item-details">
-							<div class="row">
-								<div class="description">
-									<h3>Resumen de proyecto:</h3>
-									<p> Este sitio, fue llevado a cabo gracias a una plantilla, se creó como una posible opción para mi portfolio personal. Cuenta de 5 secciones, además posee modo oscuro, modo claro y una paleta de colores para que el usuario pueda interactuar con la página.</p>
-								</div>
-								<div class="info">
-									<h3>Info del proyecto:</h3>
-									<ul>
-										<li>Fecha - <span>2021</span></li>
-										<li>Cliente - <span>*/*</span></li>
-										<li>Herramientas - <span>html, css, javascript, php</span></li>
-										<li>Web - <span><a target="_BLANK" href="https://lerdafelipe.github.io/porfoliosecundario/">Portfolio</a></span></li>
-									</ul>
-								</div>
-							</div>
-						</div>
-						<!----------Dettales del item------------->
-					</div>
-				</div>
-					<!-----------2------------->
+					<!-----------1------------->
 				<div class="portfolio-item" data-category="wordpress">
 					<div class="portfolio-item-inner outer-shadow">
 						<div class="portfolio-item-img">
-							<img src="img/portfolio/thumb/project-2.png" alt="Portfolio personal" data-screenshots="img/portfolio/large/project-2/1.png,
-							img/portfolio/large/project-2/2.png, img/portfolio/large/project-2/3.png, img/portfolio/large/project-2/4.png">
-							<span class="view-project">Ver proyecto</span>
+							<a target="_blank" rel="noreferrer" href="https://lumadimaderas.com.ar/"><img src="img/portfolio/thumb/project-2.png" alt="Portfolio personal"/></a>
 						</div>
-						<p class="portfolio-item-title">Daiana Bertello</p>
-						<!----------Dettales del item------------->
-						<div class="portfolio-item-details">
-							<div class="row">
-								<div class="description">
-									<h3>Resumen de proyecto:</h3>
-									<p> Este sitio posee 5 secciones. La principal ("Daiana"), que narra un poco la historia de esta fotógrafa y su trabajo. Una segunda sección ("Galeria"), esta muestra un poco de su labor para futuros clientes. Una tercera de servicios, que resume solo algunas de las prestaciones que puede llegar a brindar. Una cuarta sección  que permanece privada. Y por último una sección de contacto para poder comunicarse con ella, además, esta sección cuenta con algunas preguntas frecuentes y un mapa que revela la ubicación de su local.</p>
-								</div>
-								<div class="info">
-									<h3>Info del proyecto:</h3>
-									<ul>
-										<li>Fecha - <span>2019</span></li>
-										<li>Cliente - <span>Daiana Bertello</span></li>
-										<li>Herramientas - <span>Wordpress</span></li>
-										<li>Web - <span><a target="_BLANK" href="http://daianabertello.com"> Daiana Bertello</a></span></li>
-									</ul>
-								</div>
-							</div>
-						</div>
-						<!----------Dettales del item------------->
+						<p id="p-first-project" class="portfolio-item-short-descr">Short description about the project.</p>
+						<p class="view-project">Lumadi Maderas</p>
 					</div>
 				</div>
-					<!-----------3------------->
+					<!-----------2------------->
 				<div class="portfolio-item" data-category="e-commerce">
 					<div class="portfolio-item-inner outer-shadow">
 						<div class="portfolio-item-img">
-							<img src="img/portfolio/thumb/project-3.png" alt="Portfolio personal" data-screenshots="img/portfolio/large/project-3/1.png,
-							img/portfolio/large/project-3/2.png,
-							img/portfolio/large/project-3/3.png,
-							img/portfolio/large/project-3/4.png">
-							<span class="view-project">Ver proyecto</span>
+							<img src="img/portfolio/thumb/project-3.png" alt="Portfolio personal"/>
 						</div>
+						<p id="p-second-project" class="portfolio-item-short-descr">Short description about the project.</p>
 						<p class="portfolio-item-title">Poselar</p>
-						<!----------Dettales del item------------->
-						<div class="portfolio-item-details">
-							<div class="row">
-								<div class="description">
-									<h3>Resumen de proyecto:</h3>
-									<p> Este sitio, posee una página de destino que va directo al grano, es decir a la tienda, esta cuenta con una división de las categorías de productos existentes, para facilitar la entrada a dichos productos. Luego en la sección donde se encuentran estos, hay una variedad de botones para hacer la navegación más simple. Posee un carrito en el que podrás modificar la compra y por último una sección para finalizar la compra.</p>
-								</div>
-								<div class="info">
-									<h3>Info del proyecto:</h3>
-									<ul>
-										<li>Fecha - <span>2020</span></li>
-										<li>Cliente - <span>Poselar</span></li>
-										<li>Herramientas - <span>Wordpress</span></li>
-										<li>Web - <span><a href=""> Desactivada</a></span></li>
-									</ul>
-								</div>
-							</div>
-						</div>
-						<!----------Dettales del item------------->
 					</div>
 				</div>
-					<!-----------4------------->
+				<!-----------3------------->
 				<div class="portfolio-item" data-category="desarrollo-web">
 					<div class="portfolio-item-inner outer-shadow">
 						<div class="portfolio-item-img">
-							<img src="img/portfolio/thumb/project-4.png" alt="Portfolio personal" data-screenshots="img/portfolio/large/project-4/1.png, img/portfolio/large/project-4/2.png, img/portfolio/large/project-4/3.png,img/portfolio/large/project-4/4.png">
-							<span class="view-project">Ver proyecto</span>
+							<a target="_blank" rel="noreferrer" href="./pages/projects.html"><img src="img/portfolio/thumb/project-9.png" alt="Portfolio personal"/></a>
 						</div>
-						<p class="portfolio-item-title">Magma Cocteles</p>
-						<!----------Dettales del item------------->
-						<div class="portfolio-item-details">
-							<div class="row">
-								<div class="description">
-									<h3>Resumen de proyecto:</h3>
-									<p> El sitio web de Magma Cocteles fue llevado a cabo como proyecto final en Coderhouse, primero una landing page que contiene 4 secciones con información del emprendimiento y de sus tragos. Posteriormente, un carrito con algunas funciones avanzadas, para poder agregar y eliminar productos.</p>
-								</div>
-								<div class="info">
-									<h3>Info del proyecto:</h3>
-									<ul>
-										<li>Fecha - <span>2021</span></li>
-										<li>Cliente - <span> Magma Cocteles</span></li>
-										<li>Herramientas - <span>Html, Css, Javascript, Scss, Bootstrap, Jquery, JSON.</span></li>
-										<li>Web - <span><a target="_BLANK" href="https://lerdafelipe.github.io/magma-tienda/">Magma cocteles</a></span></li>
-									</ul>
-								</div>
-							</div>
-						</div>
-						<!----------Dettales del item------------->
-					</div>
-				</div>
-				<!-----------5------------->
-				<div class="portfolio-item" data-category="desarrollo-web">
-					<div class="portfolio-item-inner outer-shadow">
-						<div class="portfolio-item-img">
-							<img src="img/portfolio/thumb/project-9.png" alt="Portfolio personal" data-screenshots="img/portfolio/thumb/project-5.png, img/portfolio/thumb/project-7.png, img/portfolio/large/project-5/3.png,img/portfolio/large/project-5/4.png,img/portfolio/large/project-5/5.png">
-							<span class="view-project">Ver Proyecto</span>
-						</div>
+						<p id="p-third-project" class="portfolio-item-short-descr">Short description about the project.</p>
 						<p class="portfolio-item-title">Proyectos React</p>
-						<!----------Dettales del item------------->
-						<div class="portfolio-item-details">
-							<div class="row">
-								<div class="description">
-									<h3>Resumen del proyecto:</h3>
-									<p>Aquí se muestran proyectos que realicé con la librería React.js. El primer proyecto, es una web-app para gestión de turnos de pilates. El segundo, un e-commerce con vistas de productos, un carrito, etc.</p>
-								</div>
-								<div class="info">
-									<h3>Info del proyecto:</h3>
-									<ul>
-										<li>Fecha - <span>2021</span></li>
-										<li>Cliente - <span> Project</span></li>
-										<li>Herramientas - <span>React.js, Formik, Yup, Firebase, React Icons, React Router DOM, Material UI, etc.</span></li>
-										<li>Web - <span><a target="_BLANK" href="./pages/projects.html">Proyectos</a></span></li>
-									</ul>
-								</div>
-							</div>
-						</div>
-						<!----------Dettales del item------------->
 					</div>
 				</div>
-				<!-----------6------------->
+				<!-----------4------------->
 				<div class="portfolio-item" data-category="desarrollo-web">
 					<div class="portfolio-item-inner outer-shadow">
 						<div class="portfolio-item-img">
-							<img src="img/portfolio/thumb/project-6.png" alt="Portfolio personal" data-screenshots="img/portfolio/large/project-6/1.png, img/portfolio/large/project-6/2.png, img/portfolio/large/project-6/3.png, img/portfolio/large/project-6/4.png">
-							<span class="view-project">Ver Proyecto</span>
+							<a target="_blank" rel="noreferrer" href="https://lerdafelipe.github.io/projectsJsVanilla/"><img src="img/portfolio/thumb/project-6.png" alt="Portfolio personal"/></a>
 						</div>
+						<p id="p-fourth-project" class="portfolio-item-short-descr">Short description about the project.</p>
 						<p class="portfolio-item-title">Proyecto</p>
-						<!----------Dettales del item------------->
-						<div class="portfolio-item-details">
-							<div class="row">
-								<div class="description">
-									<h3>Resumen del proyecto:</h3>
-									<p>Aquí hay proyectos en Javascript Vanilla que he realizado para mejorar mis aptitudes.</p>
-								</div>
-								<div class="info">
-									<h3>Info del proyecto:</h3>
-									<ul>
-										<li>Fecha - <span>2021</span></li>
-										<li>Cliente - <span> Project</span></li>
-										<li>Herramientas - <span>Html, Css, Javascript y otras librerías.</span></li>
-										<li>Web - <span><a target="_BLANK" href="https://lerdafelipe.github.io/projectsJsVanilla/">Proyectos</a></span></li>
-									</ul>
-								</div>
-							</div>
-						</div>
-						<!----------Dettales del item------------->
-					</div>
-				</div>
-				<!-----------7------------->
-				<div class="portfolio-item" data-category="desarrollo-web">
-					<div class="portfolio-item-inner outer-shadow">
-						<div class="portfolio-item-img">
-							<img src="img/portfolio/thumb/project-8.png" alt="Portfolio personal" data-screenshots="img/portfolio/large/project-8/1.png,
-							img/portfolio/large/project-8/2.png">
-							<span class="view-project">¡Esta Página!</span>
-						</div>
-						<p class="portfolio-item-title">Portfolio Personal</p>
 					</div>
 				</div>
 				<!-------fin de los items----->
@@ -589,11 +186,11 @@
 	</section>
 	<!--Finaliza seccion Portfolio-->
 	<!--Comienza seccion Contacto-->
-	<section class="contact-section section" id="contact">
+	<section class="contact-section section active" id="contact">
 		<div class="container">
 			<div class="row">
 				<div class="section-title">
-					<h2 data-heading="Contacto">Ponete en contacto</h2>
+					<h2 id="contact-title" value="Contacto">Contactate conmigo</h2>
 				</div>
 			</div>
 			<div class="row">
@@ -601,7 +198,7 @@
 				<div class="contact-item">
 					<div class="contact-item-inner outer-shadow">
 						<i class="fas fa-phone"></i>
-						<span>Teléfono</span>
+						<span id="phone-title">Teléfono</span>
 						<p>+54 9 353 427 9005</p>
 					</div>
 				</div>
@@ -615,94 +212,82 @@
 				<div class="contact-item">
 					<div class="contact-item-inner outer-shadow">
 						<i class="fas fa-map-marker-alt"></i>
-						<span>Ubicación</span>
+						<span id="location-title">Ubicación</span>
 						<p>Córdoba, Argentina</p>
+					</div>
+				</div>
+				<div class="contact-item">
+					<div class="contact-item-inner outer-shadow">
+						<i class="fab fa-instagram"></i>
+						<span>instagram</span>
+						<p>@lerdafelipe</p>
+					</div>
+				</div>
+				<div class="contact-item">
+					<div class="contact-item-inner outer-shadow">
+						<i class="fab fa-linkedin-in"></i>
+						<span>Linkedin</span>
+						<p>/lerdafelipe</p>
+					</div>
+				</div>
+				<div class="contact-item">
+					<div class="contact-item-inner outer-shadow">
+						<i class="fab fa-twitter"></i>
+						<span>Linkedin</span>
+						<p>@lerdafelipe</p>
 					</div>
 				</div>
 				<!----Contacto item---->
 			</div>
-			<div class="row">
-				<div class="contact-form">
-					<form action="https://formspree.io/f/xwkarape" method="POST">
-						<div class="row">
-						    <div class="w-50">
-							  <div class="input-group outer-shadow hover-in-shadow">
-								<input type="text" name="nombre" placeholder="Nombre*" class="input-control" required>
-							  </div>
-							  <div class="input-group outer-shadow hover-in-shadow">
-								<input type="email" name="email" placeholder="Email*" class="input-control" required>
-							  </div>
-							  <div class="input-group outer-shadow hover-in-shadow">
-								<input type="text" name="asunto" placeholder="Asunto" class="input-control" >
-							  </div>
-						    </div>
-						    <div class="w-50">
-							  <div class="input-group outer-shadow hover-in-shadow">
-								<textarea placeholder="Consulta*" name="mensaje" class="input-control" required></textarea>
-							  </div>
-						    </div>
-							</div>
-						<div class="row">
-							<div class="submit-btn">
-								<button type="submit" class="btn-2 outer-shadow hover-in-shadow">Enviar Mensaje</button>
-						</div>
-						</div>
-						</div>
-					</form>
+			</div>
+		</div>
+	</section>
+	<!--Finaliza seccion Contacto-->
+
+
+	<!-------Popup type of user------->
+
+	<section id="popup" class="section popup-type-of-user">
+
+		<div class="type-of-user">
+
+			<div class="lang-pop">
+				<span>English</span>
+				<div id="switchet-lang" class="switcher-lang">
+					<button onclick="setLangFirst()" class="switcher-lang-button"></button>
+				</div>
+				<span>Español</span>
+			</div>
+
+
+			<h5 id="title-popup">What type of visitor are you?</h5>
+
+			<button id="recr" onclick="setUserFirst('recruiter')" class="button-user-type outer-shadow">Only A Recruiter</button>
+
+			<button id="user-ty" onclick="setUserFirst('user')" class="button-user-type outer-shadow">An important person</button>
+
+		</div>
+
+	</section>
+
+	<!-------Finaliza popup type of user-------->
+
+
+
+	<!--Comienza seccion Contacto-->
+	<section class="section active">
+		<div class="container">
+			<div class="row foot">
+				<div class="section-title">
+					<span><i class="fas fa-copyright"></i>  2022 Felipe Lerda</span>
+					<span><a target="_blank" rel="noreferrer" id="privacy-policy" href="/privacy-policy.html">Politicas de privacidad</a></span>
 				</div>
 			</div>
 		</div>
 	</section>
 
-	<!--Finaliza seccion Contacto-->
-	<!--Portfolio popups---->
-	<div class="pp portfolio-popup">
-		<div class="pp-details">
-			<div class="pp-details-inner">
-				<div class="pp-title">
-					<h2> Portfolio Personal Secundario</h2>
-					<p>Categoria - <span class="pp-project-category">Desarrollo web</span></p>
-				</div>
-				<!------Separador------->
-				<div class="separator"></div>
-				<!------Separador------->
-				<div class="pp-project-details">
-					<div class="row">
-						<div class="description">
-							<h3>Resumen de proyecto:</h3>
-							<p></p>
-						</div>
-						<div class="info">
-							<h3>Info del proyecto:</h3>
-							<ul>
-								<li>Fecha - <span>2019</span></li>
-								<li>Cliente - <span>ixm</span></li>
-								<li>Herramientas - <span>html, css, javascript</span></li>
-								<li>Web - <span><a href="#">www.lerdafelipe.com</a></span></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!------Separador------->
-		<div class="separator"></div>
-		<!------Separador------->
-		<div class="pp-main">
-			<div class="pp-main-inner">
-				<div class="pp-project-details-btn outer-shadow hover-in-shadow">Detalles del proyecto <i class="fas fa-plus"></i></div>
-				<div class="pp-close outer-shadow hover-in-shadow">&times;</div>
-				<img src="img/portfolio/large/project-1/1.png" alt="img" class="pp-img outer-shadow">
-				<div class="pp-counter">1 de 6</div>
-			</div>
-			<div class="pp-loader">
-				<div></div>
-			</div>
-			<div class="pp-prev"><i class="fas fa-play"></i></div>
-			<div class="pp-next"><i class="fas fa-play"></i></div>
-		</div>
-	</div>
-	<!--Portfolio popups---->
+
+	
 	<!------Controlador de estilos----------->
 	<div class="style-switcher outer-shadow">
 		<div class="style-switcher-toggler s-icon outer-shadow hover-in-shadow">
@@ -711,7 +296,7 @@
 		<div class="day-night s-icon outer-shadow hover-in-shadow">
 			<i class="fas"></i>
 		</div>
-		<h4>Estilo del sitio</h4>
+		<h4 id="styleTitle" style="margin-top: 0;">Estilo del sitio<i style="font-size: 14px; margin-left: 8px;" class="fas fa-pencil-alt"></i></h4>
 		<div class="colors">
 			<span class="color-1" onclick="setActiveStyle('color-1')"></span>
 			<span class="color-2" onclick="setActiveStyle('color-2')"></span>
@@ -719,6 +304,12 @@
 			<span class="color-4" onclick="setActiveStyle('color-4')"></span>
 			<span class="color-5" onclick="setActiveStyle('color-5')"></span>
 		</div>
+		<h4 id="lang-title">Language<i style="font-size: 20px; margin-left: 8px;" class="fas fa-language"></i></h4>
+		<button onclick="changeLang('Español')" id="lang-esp" class="active">• Español</button><br/>
+		<button onclick="changeLang('English')" id="lang-eng" >• English</button>
+		<h4 id="visitor-title">Visitor Type<i style="font-size: 14px; margin-left: 8px;" class="fas fa-user"></i></h4>
+		<button onclick="changeUserType('recruiter')" id="first-visitor">• A Recruiter</button>
+		<button  onclick="changeUserType('user')" id="second-visitor">• An important person</button>
 	</div>
 	<!------Controlador de estilos----------->
 
