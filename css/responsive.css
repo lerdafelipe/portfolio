@@ -37,6 +37,12 @@
     max-width: 100%;
     padding: 0 15px;
   }
+  .sobre-info .section-title{
+    text-align: center;
+  }
+  .sobre-info .section-title h2{
+    text-align: center;
+  }
   .felipe-section .felipe-text {
     order: 2;
     margin-top: -120px;
@@ -142,12 +148,6 @@
 .portfolio-job-button {
   flex: 0 0 100%;
   max-width: 100%;
-}
-.sobre-info .section-title{
-  text-align: center;
-}
-.sobre-info .section-title h2{
-  text-align: center;
 }
 .portfolio-job-button a {
   text-align: center;

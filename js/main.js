@@ -170,7 +170,20 @@ let initializeApp = ()=>{
 }
 
 
-initializeApp();
+(()=>{
+	initializeApp();
+	if(language === "English" || language === null){
+		document.getElementById('title-popup').innerHTML = userEngl.popupTitle;
+		document.getElementById('recr').innerHTML = userEngl.firtVisitor;
+		document.getElementById('user-ty').innerHTML = userEngl.secondVisitor;
+		document.getElementById('check-lang-swit').checked = false;
+	}else{
+		document.getElementById('title-popup').innerHTML = user.popupTitle;
+		document.getElementById('recr').innerHTML = user.firtVisitor;
+		document.getElementById('user-ty').innerHTML = user.secondVisitor;
+		document.getElementById('check-lang-swit').checked = true;
+	}
+})();
 
 
 const setUserFirst = (use)=>{
@@ -185,7 +198,6 @@ const setLangFirst = () =>{
 	language = localStorage.getItem('lang');
 	if(language === "Español" || language === null){ 
 		localStorage.setItem('lang', "English");
-		document.getElementById('switchet-lang').classList.remove('active');
 		document.getElementById('lang-eng').classList.add('active');
 		document.getElementById('lang-esp').classList.remove('active');
 		//**Popup */
@@ -194,7 +206,6 @@ const setLangFirst = () =>{
 		document.getElementById('user-ty').innerHTML = userEngl.secondVisitor;
 	}
 	if(language === "English"){ 
-		document.getElementById('switchet-lang').classList.add('active');
 		localStorage.setItem('lang', "Español");
 		document.getElementById('lang-esp').classList.remove('active');
 		document.getElementById('lang-eng').classList.add('active');
