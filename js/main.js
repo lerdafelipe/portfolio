@@ -1,6 +1,6 @@
 const recruiterEngl = {
-					homeText: "Hi! I'm Felipe Lerda. I am a front end developer from Argentina. I am so happy and I hope that you too.",
- 					homeSecondText: "I'm a person who loves to learn and be self-sufficient. Since I was in high school I have taken courses on different topics to deepen and have a more competitive advantage with others. I'm in the world of IT since I take the Wordpress course in 2019. In 2020 I started with the career of Full Stack development at Coderhouse. I love to learn from other people to know more than them. I am constantly thinking of new projects and I love to be useful to others. I would like get a job in a startup or a company where I can better exploit my skills. If you like what you read, send me a message and tomorrow we could have a meeting.",
+					homeText: "My name is Felipe Lerda, a 21-year-old front-end developer. I am <img class='flag' src='https://images.emojiterra.com/google/noto-emoji/v2.034/128px/1f1ee-1f1f9.png'/>Italian-Argentinian<img class='flag' src='https://images.emojiterra.com/google/noto-emoji/v2.034/128px/1f1e6-1f1f7.png'/> I started my IT journey in 2016 with a Wordpress course and decided to pursue web development full-time in 2020. I completed a full-stack web development course at CoderHouse and am now seeking opportunities to grow and contribute as a professional.",
+ 					homeSecondText: "I love to learn and collaborate, constantly seeking new ways to expand my knowledge and unleash my creativity. I am confident that my technical skills and passion for development make me a valuable asset to any team. ",
 					skillsData: "Some tools",
 					skillsSubtitle: "I usually work with the React stack, but i'm open to others technologies.",
 					portfolioTitle: "Some projects",
@@ -13,9 +13,8 @@ const recruiterEngl = {
 					styleTitle: "Style switcher",
 					LangTitle: "Language",
 					VisitTitle: "Visitor Type",
-					firtVisitor: "Only A Recruiter",
-					secondVisitor: "An important person",
-					thirdVisitor: "A startup owner",
+					firtVisitor: "I'm a Recruiter",
+					secondVisitor: "A person who is visiting the website",
 					popupTitle: "What type of visitor are you?",
 					firstProject: "This is a website for a company with functionalities to automate company processes. <span>Tools:</span> Firestore, React.js",
 					secondProject: "This was an own startup, basically an ecommerce of supermarket items. Currently not available. <span>Tools:</span> Wordpress.",
@@ -37,9 +36,8 @@ const recruiter = {
 				styleTitle: "Estilos del sitio",
 				LangTitle: "Idioma",
 				VisitTitle: "Tipo de usuario",
-				firtVisitor: "Un Simple recruiter",
-				secondVisitor: "Una persona importante",
-				thirdVisitor: "Dueño de una startup",
+				firtVisitor: "Soy una persona de RRHH",
+				secondVisitor: "Una persona visitando el sitio web",
 				popupTitle: "¿Qué tipo de usuario eres?",
 				firstProject: "Es un sitio web de muestra con funcionalidades para automatizar trabajos de la empresa. <span>Herramientas:</span> Firestore, React.js",
 				secondProject: "Este fue un emprendimiento propio, Era un ecommerce con items de supermercado. No disponible. <span>Herramientas:</span> Wordpress.",
@@ -47,8 +45,8 @@ const recruiter = {
 				fourthProject: "Proyectos desarrollados por mi con React.js. <span>Herramientas:</span> React.js, Redux, Node.js y otras librerias Javascript."
 };
 const userEngl = {
-			homeText: "Hi! I'm Felipe Lerda. I am a front end developer from Argentina. I am so happy and I hope that you too. I'm 20 years old. In 2019, while I was finishing high school, I took a course on EducacionIt and from that moment I am trying to learn the whole world of web design and development. I made a few websites and in 2020 I decided to start a development career in Coderhouse.I am the perfect person to do your web site, because I search the best for your Project to do it the most professional as possible and I strive in all I do.",
-			homeSecondText: "If you are interested please contact me right now to confirm your Project, because I make a limited number of projects per month.",
+	homeText: "Hi! I'm Felipe Lerda. I am an <img class='flag' src='https://images.emojiterra.com/google/noto-emoji/v2.034/128px/1f1ee-1f1f9.png'/>Italian-Argentinian<img class='flag' src='https://images.emojiterra.com/google/noto-emoji/v2.034/128px/1f1e6-1f1f7.png'/> front-end developer with a passion for delivering dynamic web experiences. With a full-stack web development background, I offer technical expertise and creative flair. I'm dedicated, reliable, and always eager to learn and collaborate.",
+			homeSecondText: "I can help bring your website ideas to life, whether it's building a new site, revamping an existing one, or adding new features. I take pride in my work and always aim to exceed clients' expectations. Let's work together to bring your web development visions to life. Contact me for dedicated and creative front-end development services.",
 			skillsData: "Some tools",
 			skillsSubtitle: "These are some tools that I usually use, not all.",
 			portfolioTitle: "Some projects",
@@ -61,8 +59,8 @@ const userEngl = {
 			styleTitle: "Style switcher",
 			LangTitle: "Language",
 			VisitTitle: "Visitor Type",
-			firtVisitor: "Only A Recruiter",
-			secondVisitor: "An important person",
+			firtVisitor: "I'm a Recruiter",
+			secondVisitor: "A person who is visiting the website",
 			thirdVisitor: "A startup owner",
 			popupTitle: "What type of visitor are you?",
 			firstProject: "This is a website for a company with functionalities to automate company processes. <span>Tools:</span> Firestore, React.js",
@@ -71,7 +69,7 @@ const userEngl = {
 			fourthProject: "These are projects developed with me with React.js <span>Tools:</span> React.js, Redux, Node.js and other libraries."
 };
 const user = {
-			homeText: "¡Hola! Mi nombre es Felipe Lerda. Soy Desarrollador Web. Tengo 20 años, En 2019, mientras estaba en mi último año del secundario, realicé un curso de EducacionIT y desde ese momento incursiono en el mundo del diseño y desarrollo web. Luego de hacer algunos sitios web, en 2020 decidí meterme de lleno en esta profesión y es por eso que comencé una carrera en Coderhouse. Soy la persona indicada para hacer tu sitio web, ya que además de ser alguien que pone mucho esfuerzo en lo que hace, tomo cada proyecto como propio y busco mejoras constantes para que tu idea sea lo más profesional posible.",
+			homeText: "¡Hola! Mi nombre es Felipe Lerda. Soy Desarrollador Web. Tengo 21 años, En 2019, mientras estaba en mi último año del secundario, realicé un curso de EducacionIT y desde ese momento incursiono en el mundo del diseño y desarrollo web. Luego de hacer algunos sitios web, en 2020 decidí meterme de lleno en esta profesión y es por eso que comencé una carrera en Coderhouse. Soy la persona indicada para hacer tu sitio web, ya que además de ser alguien que pone mucho esfuerzo en lo que hace, tomo cada proyecto como propio y busco mejoras constantes para que tu idea sea lo más profesional posible.",
 			homeSecondText: "Mi consejo es que te apresures a contactarme para poder confirmar tu sitio web, ya que tengo un límite de proyectos al mes.",
 			skillsData: "Algunas herramientas",
 			skillsSubtitle: "Generalmente trabajo con el stack de React.js pero estoy abierto a aprender otras tecnologías.",
@@ -85,8 +83,8 @@ const user = {
 			styleTitle: "Estilos del sitio",
 			LangTitle: "Idioma",
 			VisitTitle: "Tipo de usuario",
-			firtVisitor: "Un simple recruiter",
-			secondVisitor: "Una persona importante",
+			firtVisitor: "Soy una persona de RRHH",
+			secondVisitor: "Una persona visitando el sitio web",
 			popupTitle: "¿Qué tipo de usuario eres?",
 			firstProject: "Es un sitio web de muestra con funcionalidades para automatizar trabajos de la empresa. <span>Herramientas:</span> Firestore, React.js",
 			secondProject: "Este fue un emprendimiento propio, Era un ecommerce con items de supermercado. No disponible. <span>Herramientas:</span> Wordpress.",
@@ -196,7 +194,7 @@ const setUserFirst = (use)=>{
 
 const setLangFirst = () =>{
 	language = localStorage.getItem('lang');
-	if(language === "Español" || language === null){ 
+	if(language === "Español"){ 
 		localStorage.setItem('lang', "English");
 		document.getElementById('lang-eng').classList.add('active');
 		document.getElementById('lang-esp').classList.remove('active');
@@ -204,8 +202,10 @@ const setLangFirst = () =>{
 		document.getElementById('title-popup').innerHTML = userEngl.popupTitle;
 		document.getElementById('recr').innerHTML = userEngl.firtVisitor;
 		document.getElementById('user-ty').innerHTML = userEngl.secondVisitor;
+
+		document.getElementById('check-lang-swit').checked = false;
 	}
-	if(language === "English"){ 
+	if(language === "English" || language === null){ 
 		localStorage.setItem('lang', "Español");
 		document.getElementById('lang-esp').classList.remove('active');
 		document.getElementById('lang-eng').classList.add('active');
@@ -213,6 +213,8 @@ const setLangFirst = () =>{
 		document.getElementById('title-popup').innerHTML = user.popupTitle;
 		document.getElementById('recr').innerHTML = user.firtVisitor;
 		document.getElementById('user-ty').innerHTML = user.secondVisitor;
+
+		document.getElementById('check-lang-swit').checked = true;
 	}
 }
 

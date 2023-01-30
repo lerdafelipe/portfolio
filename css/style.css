@@ -1093,3 +1093,12 @@ Popup type of user
 .switcher-lang.active{
   justify-content: flex-end;
 }
+.flag{
+  height: 18px;
+}
+#first-visitor{
+  text-align: left;
+}
+#second-visitor{
+  text-align: left;
+}
